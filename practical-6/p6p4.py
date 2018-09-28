@@ -17,11 +17,10 @@ if password_enter == password:
     print ("You have successfully logged in.")
 
 else:
-    while password_enter != password and count < 3:
-        count = count + 1
+    while password_enter != password and count <= 3:
         print ("That is the wrong password")
         password_enter = input ("Enter your password: ")
-   
+        count = count + 1
     
     if password_enter == password and count < 3:
         print ("You have successfully logged in.")
