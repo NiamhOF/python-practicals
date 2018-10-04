@@ -26,7 +26,7 @@ count5 = 0
 count6 = 0
 count7 = 0
 
-while num > 0:
+while num >= 0:
     if num == 0:
         print ('Number is equal to 0')
         count1 += 1

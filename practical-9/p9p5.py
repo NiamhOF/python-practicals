@@ -4,7 +4,8 @@ Practical 9, Exercise 5
 Ask user for number of possible toppings
 Ask user for numer of toppings on standard pizza
 Get the number of the possible toppings minus the number of toppings on a pizza
-Tell the user if either number is less than 0
+Tell the user if either number is less than 0 or if the difference is less than zero
+
 else:
     calculate factorial of all possible toppings
     if toppings is equal to 0, factorial is 1
@@ -39,28 +40,31 @@ diff = top - top_stand
 if top < 0 or top_stand < 0:
     print ('Number entered was less than 0')
 
+elif diff < 0:
+    print ('Number of possible toppings must be greater than the number of toppings offered on a standard pizza')
+
 else:
-    if top == 1:
+    if top == 1 or top == 0:
         factn = 1
     else:
         factn = 1
         for i in range (1, top + 1):
             factn *= i
 
-    if top_stand == 1:
+    if top_stand == 1 or top_stand == 0:
         factk = 1
     else:
         factk = 1
         for j in range (1, top_stand + 1):
             factk *= j
-
-    if diff == 1:
+            
+    if diff == 1 or diff == 0:
         factj = 1
     else:
         factj = 1
         for k in range (1, diff + 1):
             factj *= k
 
-facti=factk * factj
+    facti=factk * factj
 
-print ('The number of possible combinations is:', (factn//facti))
+    print ('The number of possible combinations is:', (factn//facti))

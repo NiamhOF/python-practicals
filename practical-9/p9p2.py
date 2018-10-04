@@ -13,8 +13,7 @@ If the number is less than zero, tell the user and stop the program
 
 '''
 
-num = 1
-
+num = int (input ('Enter a positive integer: '))
 add = 0
 
 while num > 0:

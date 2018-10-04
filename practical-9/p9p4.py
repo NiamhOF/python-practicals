@@ -24,8 +24,10 @@ while num >= 0:
         fact = 1
     else:
         fact = 1
-        for i in range (1, num + 1):
+        i = 1
+        while i <= num:
             fact *= i
+            i += 1
 
     print ('The factorial of', num, 'is', fact)
     num = int (input ('Enter a positive integer: '))
