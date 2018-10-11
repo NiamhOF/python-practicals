@@ -22,7 +22,7 @@ else:
         password_enter = input ("Enter your password: ")
         count = count + 1
     
-    if password_enter == password and count < 3:
+    if password_enter == password and count <= 3:
         print ("You have successfully logged in.")
     else:
          print ("You have been denied access")

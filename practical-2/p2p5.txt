@@ -1,6 +1,6 @@
 Practical 2, exercise 5
 
-(a) No segement is returned. Presumably because there is no letters better them to return
+(a) No segment is returned. Presumably because there is no letters better them to return
 (b) No segment is returned.
 (c) All the letters up to the position of y will be returned
 (d) All the letters from position of x onwards are returned

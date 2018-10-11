@@ -30,5 +30,7 @@ while number >= 0:
     else:
         print (number, 'is not a perfect square')
 
+    square_root = 0
+
     number = int(input('Enter the number you want to find the square root of: '))
 print ('Number is negative. Program finished.')

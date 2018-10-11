@@ -9,7 +9,7 @@ else:
     print that if number is 0, the Catalan Series is 1
     define cn as 1
     for all numbers from 0 up to the number:
-        define numerator as 2 times ( 2 by n +1)
+        define numerator as 2 times by ( 2 by n +1)
         define denominator as n + 2
         define catalan as an integer of numerator divided by denominator multiplied by cn
         define cn as catalan

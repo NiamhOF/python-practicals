@@ -1,0 +1,36 @@
+Practical 13, Exercise 3
+
+(a) If the line print(print_max()) is included the result is given as:
+
+    The print statement within the function giving the largest number
+    None
+
+    The inner function prints first
+    The first function is the print statement as it should return as part of the function print_max()
+    This print statement in the function then prints a new line
+
+    The second line is a second print statement. Print in Python is a function.
+    With no value in the (), it prints the value none.
+
+    Example of code:
+
+    Enter a number: 5
+    Enter a number: 8
+    The largest number between 5.0 and 8.0 is 8.0
+    None
+
+(b) If the () is left out of the function print_max:
+
+    If this is left out of defining the function, a syntax error is given.
+    () is needed after a function to execute the function and return the value
+
+    If it is left out of the final print_max function there will not be a syntax error
+    It won't return the value
+    This is returning the method but not the value from the function
+    It return RESTART
+
+(c) If you included the line print(print_max):
+    
+    It returns: '<function print_max at 0x10d4016a8>'
+    
+    Instead of returning the function, the print is returning the functions address in memory

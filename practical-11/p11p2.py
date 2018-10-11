@@ -2,7 +2,7 @@
 Practical 11, Exercise 2
 
 Ask user for a number
-if number less than zero:
+if number equal to or less than zero:
     print error
 else if number is 1:
     print that the series is 0
