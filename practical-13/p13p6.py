@@ -2,6 +2,8 @@
 
 Practical 13, Exercise 6
 
+Program to get the factorial of a number
+
 (a) define the function fact (x)
     if x is 0
         return 1
@@ -14,15 +16,23 @@ Practical 13, Exercise 6
     else:
         print the factorial as the function fact of the number entered
 
-(c)
+(c) add print statements to the function to show the recursion working
+    print current number
+    print factorial of that number
 
 '''
 
 def fact (x):
+    
+    '''Function that returns the factorial of argument using recursion.
+    Assumes a non-negative integer'''
+    
     if x == 0:
         return 1
     else:
-        print ('The number now being evaluated is:', x, '. The factorial of this is', x * fact(x -1))
+        res = x * fact (x - 1)
+        print ('The number now being evaluated is:', x)
+        print ('The current factorial is:', res)
         return x * fact (x - 1)
             
 
