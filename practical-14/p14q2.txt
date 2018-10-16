@@ -1,0 +1,19 @@
+Practical 14, Exercise 2
+
+Using practical 9, exercise 4 as the non recursive function for calculating a factorial.
+Using practical 13, exercise 6 as the recursive function for calculating a factorial.
+Entering numbers 5, 50, 500, 5000
+
+Using the non-recursive function:
+
+Runs fairly quick until 5000 is entered. Then the program slows significantly.
+Does not give an error but program stalls for quite a while.
+At 50000, program crashes.
+
+
+Using a recursive function:
+
+Runs quickly until 5000. Then an error is incurred:
+RecursionError: maximum recursion depth exceeded in comparison
+
+

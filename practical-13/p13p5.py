@@ -4,50 +4,52 @@ Practical 13, Exercise 5
 
 Program to illustrate scoping in Python
 
-Define the function f of c:
+Define the function f of x:
     print in the function f
-    define a as the string Hello
-    define c as the string after
-    define e as 20
-    print the values of a, b, c, d and e
-    return c
+    define x as x times 5
+    define y as 200
+    define a as the string I'm in a function
+    define b as 4 to the power of x
+    print the values of x, y, z, a and b
+    return x
 
-define values for a, b, c, d and e
-print the values of a, b, c, d and e before the function
+define values for x, y, z, a and b
+print the values of x, y, z, a and b before the function
 
-define c as the function f(c)
-print the values of a, b, c, d and e after this
+define z as the function f(x)
+print the values of x, y, z, a and b after this
 
 '''
 
-def f(c):
-    '''Function that its arguement to a string and prints it out'''
+def f(x):
+    '''Function that adds 1 to its argument and prints it out'''
     print ('In function f:')
-    a = "Hello"
-    c = "after"
-    e = 20
+    x *= 5
+    y = 200
+    a = "I'm in a function"
+    b = 4 ** x
     print ('a is', a)
+    print ('x is', x)
+    print ('y is', y)
+    print ('z is', z)
     print ('b is', b)
-    print ('c is', c)
-    print ('d is', d)
-    print ('e is', e)
-    return c
+    return x
 
-a, b, c, d, e = "This", "is", "without", "the", "function"
+x, y, z, a, b = 5, 10, 15, 'Hello', 'Bye'
 
 print ('Before function f:')
 print ('a is', a)
+print ('x is', x)
+print ('y is', y)
+print ('z is', z)
 print ('b is', b)
-print ('c is', c)
-print ('d is', d)
-print ('e is', e)
 
-c = f(c)
+z = f(x)
 
 print ('After function f:')
 print ('a is', a)
+print ('x is', x)
+print ('y is', y)
+print ('z is', z)
 print ('b is', b)
-print ('c is', c)
-print ('d is', d)
-print ('e is', e)
 

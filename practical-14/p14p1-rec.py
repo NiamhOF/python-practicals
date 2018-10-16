@@ -1,6 +1,6 @@
 '''
 
-Practical 13, Exercise 6
+Practical 14, Exercise 1
 
 Program to get the factorial of a number
 
@@ -16,10 +16,6 @@ Program to get the factorial of a number
     else:
         print the factorial as the function fact of the number entered
 
-(c) add print statements to the function to show the recursion working
-    print current number
-    print factorial of that number
-
 '''
 
 def fact (x):
@@ -31,15 +27,15 @@ def fact (x):
         return 1
     else:
         res = x * fact (x - 1)
-        print ('The number now being evaluated is:', x)
-        print ('The current factorial is:', res)
         return res
             
 
 num = int (input ('Enter a positive number to get the factorial: '))
 
+while num >= 0:
+    print ('The factorial of', num, 'is', fact(num))
+    num = int (input ('Enter a positive number to get the factorial: '))
+    
 if num < 0:
     print ('Error, that number is less than zero')
     
-else:
-    print ('The factorial of', num, 'is', fact(num))
