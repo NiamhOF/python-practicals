@@ -1,0 +1,6 @@
+The left angle bracket occurs 54 times
+The right angle bracket occurs 54 times
+There are 50 occurrences of newlines
+There are 48 occurrences of lowercase e characters
+The string <-- occurs 2 times
+The string --> occurs 2 times

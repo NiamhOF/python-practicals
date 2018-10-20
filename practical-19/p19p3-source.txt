@@ -1,0 +1,110 @@
+<-- Text for Practical 19, Exercise 3 -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8"> 
+    <meta name="assignment 1" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Assignment 1</title>
+
+</head>
+
+<-- Website for web app development - Assignment 1 -->
+
+    <body>
+        <div class="navbar">
+            <a class="active" href="./index.html">HOME</a>
+            <a href="./about.html">ABOUT</a>
+            <div class="dropdown">
+                <div class="drop">PROJECTS &#x25BC;</div>
+                    <div class="drop-content">
+                        <a href="./athlone.html">Athlone Garda Station</a>
+                        <a href="./leinsterhouse.html">Leinster House</a>
+                    </div>
+            </div>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+
+        <ul class="slideshow">
+            <li>
+            <span></span>
+                <div>
+                <h1>NIAMH O'FLAHERTY ARCHITECTURE</h1>
+                </div>
+            </li>
+            <li>
+            <span></span>
+            </li>
+            <li>
+            <span></span>
+            </li>
+            <li>
+            <span></span>
+            </li>
+        </ul>  
+
+    </body>
+
+</html>
+
+ body {
+     margin: 0px;
+     font-family: 'Work Sans', sans-serif;
+     background-color: white;
+}
+
+
+h1 {
+    display: inline;
+    z-index: 1000;
+    position: absolute;
+    bottom: 16px;
+    left: 14px;
+    width: 100%;
+    text-align: left;
+    color: darkorange;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    color: dimgray;
+    position: relative;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px;
+}
+
+h3 {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 16px;
+    color: dimgrey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    border-style: hidden;
+    padding: 14px;
+    padding-right: 14px;
+    margin: 8px 16px 8px 0px;
+    color: dimgray;
+    width: 100%;
+    float: left;
+}
+
+td {
+    border-right: 1px dotted dimgrey;
+}
+
+[[]]()

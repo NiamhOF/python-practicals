@@ -4,14 +4,14 @@ Practical 15, Exercise 1
 Program using recursion to get f(n) = n + f(n-1)
 
 (a) Define function fun()
-    if n is less than or equal to 1
+    if n is equal to 1
         return 2
     else:
     return n + fun (n - 1)
 
 (b) Ask user for a number
     while number is greater than or equal to 1:
-        for all values in the range i up to number
+        for all values in the range i from 1 up to number
             print the function fun of that number
         ask the user for another number
 
@@ -44,7 +44,7 @@ def fun(n):
 number = int (input ('Enter a number: '))
 
 while number >= 1:
-    for i in range (number + 1):
+    for i in range (1, number + 1):
         print (fun(i))
     print ()
     number = int (input ('Enter a number: '))
